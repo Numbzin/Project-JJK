@@ -1,6 +1,8 @@
 # Project-JJK
 a small project about some jujutsu kaisen characters. xD
 
+Soon I'll add more things, some effects, to make it more beautiful... I'll make some images too
+
 # I did it by following a live on YouTube, from the channel "Devs em Dobro"
 
 link video:
