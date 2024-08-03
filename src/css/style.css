@@ -1,0 +1,98 @@
+body {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+main::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  min-width: 80vw;
+  background: linear-gradient(-233deg, #000 30%, rgba(0, 0, 0, 0) 65%) no-repeat;
+}
+
+main .char {
+  display: none;
+  height: 100vh;
+}
+
+main .char.selected {
+  display: block;
+}
+
+main .char .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main .char .image.maki {
+  transform: scaleX(-1);
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 380px;
+  z-index: 1;
+}
+
+.content .name-char {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.content .desc {
+  color: #ffffff;
+  font-family: "Rubik";
+  line-height: 24px;
+}
+
+.content .logo {
+  background-image: url("../assets/jjk.png");
+  background-size: cover;
+  height: 100px;
+  width: 230px;
+  margin-bottom: 35px;
+}
+
+.buttons {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.buttons .btn {
+  border: none;
+  background: #000000;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.buttons .btn img {
+  border-radius: 50%;
+}
+
+.buttons .btn.selected {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #d9d9d9;
+}
