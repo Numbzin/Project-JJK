@@ -37,30 +37,29 @@
 }
 
 @media (max-width: 425px) {
-    main .char .image {
-        height: 50%;
+  main .char .image {
+    height: 50%;
+  }
 
-    }
+  .content .logo {
+    width: 170px;
+    height: 75px;
+  }
 
-    .content .logo {
-        width: 170px;
-        height: 75px;
-    }
+  .content {
+    top: -30%;
+  }
 
-    .content {
-        top: -30%;
-    }
+  .content .char-name {
+    font-size: 24px;
+  }
 
-    .content .char-name {
-        font-size: 24px;
-    }
+  .butons {
+    padding: 20px;
+    top: -20%;
+  }
 
-    .butons {
-        padding: 20px;
-        top: -20%;
-    }
-
-    .buttons .btn img {
-        max-width: 50px;
-    }
+  .buttons .btn img {
+    max-width: 50px;
+  }
 }

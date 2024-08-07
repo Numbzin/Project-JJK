@@ -8,12 +8,13 @@ buttons.forEach((btn, indice) => {
 
     btn.classList.add("selected");
     char[indice].classList.add("selected");
+
+    typeWriter(descriptions[indice], char[indice].querySelector(".typewriter"));
   });
 });
 
 function desselectchar() {
   const charselected = document.querySelector(".char.selected");
-
   charselected.classList.remove("selected");
 }
 
