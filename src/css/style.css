@@ -67,16 +67,6 @@ main .char .image.maki {
   margin-bottom: 35px;
 }
 
-.typewriter {
-  overflow: hidden;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
-}
-
 .buttons {
   position: fixed;
   top: 0;
