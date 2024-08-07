@@ -25,7 +25,6 @@ function typeWriter(text, element) {
   type();
 }
 
-// Inicializar com a descrição do primeiro personagem
 document.addEventListener("DOMContentLoaded", () => {
   typeWriter(descriptions[0], document.querySelector(".char.selected .typewriter"));
 });
